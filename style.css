@@ -1,0 +1,14 @@
+.hide {
+  display: none;
+}
+
+.title {
+  text-align: center;
+}
+
+#timer {
+  text-align: center;
+  font-size: 5rem;
+}
+
+

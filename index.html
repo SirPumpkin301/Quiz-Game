@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Quiz</title>
+
+    <!-- linking bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- linking custom stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- linking js -->
+    <script defer src="./script.js"></script>
+    <!-- bootstrap jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</head>
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="title">Quiz Game</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <p id="timer"></p>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-6 text-center">
+        <button id="start-btn">Start</button>
+    </div>
+    <div class="col-md-6 text-center">
+        <button id="high-score-btn">View High Scores</button>
+    </div>
+</div>
+<body>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div id="question" class="hide ">
+                <p id="question-text"></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="answer-btn-container" class="hide text-center">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class ="col-md-6"> </div>
+            <div class="col-md-6">
+               <button class="hide" id="next-btn">Next</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div id="score-display"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
