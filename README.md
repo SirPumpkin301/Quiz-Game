@@ -15,4 +15,4 @@ SirPumpkin301
 
 ## Links
 
-[Deployed](https://squiddotjpeg.github.io/Quiz-Game/)
+[Deployed](https://sirpumpkin301.github.io/Quiz-Game/)
